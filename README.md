@@ -20,13 +20,6 @@ The form collects the following information from the user:
 *   **Your Message**: A multi-line text area for the user to elaborate on their request or provide additional details.
 *   **Terms and Conditions**: A mandatory checkbox ensuring the user agrees to the privacy policy before submitting the form (Required).
 
-## Features
-
-*   **Responsive Design**: The form looks great on both desktop and mobile devices.
-*   **Real-time State Management**: Uses React's `useState` hook to manage input fields efficiently.
-*   **Validation & Error Handling**: Ensures that mandatory fields (like the terms and conditions and communication preference) are completed before allowing form submission, displaying error or success messages accordingly.
-*   **Tailwind CSS Styling**: Utilizes modern utility classes for a clean, cohesive, and accessible user interface.
-
 ## How to Run Locally
 
 To get this project running on your local machine:
