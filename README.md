@@ -1,5 +1,7 @@
 # React Contact Form
 
+![React Contact Form Screenshot](./public/screenshot.png)
+
 This project is a modern, responsive "Contact Us" form built with React and Tailwind CSS. It is designed to capture user inquiries and feedback in a structured and user-friendly manner.
 
 ## Purpose
