@@ -1,16 +1,36 @@
-# React + Vite
+# React Contact Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a modern, responsive "Contact Us" form built with React and Tailwind CSS. It is designed to capture user inquiries and feedback in a structured and user-friendly manner.
 
-Currently, two official plugins are available:
+## Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The primary use of this form is to provide a clean and intuitive interface for users to get in touch with support, sales, or provide general feedback. It handles user input dynamically, manages form state using React Hooks, and includes basic validation to ensure necessary information is provided before submission.
 
-## React Compiler
+## Form Fields
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The form collects the following information from the user:
 
-## Expanding the ESLint configuration
+*   **Full Name**: A standard text input for the user's name (Required).
+*   **Email Address**: An email input field to capture contact information (Required).
+*   **Phone Number**: A telephone input for optional voice contact.
+*   **Category**: A dropdown menu allowing the user to select the nature of their inquiry (e.g., Technical Support, Sales Inquiry, General Feedback, or Other) (Required).
+*   **Communication Preference**: Radio buttons allowing the user to select their preferred method of contact (Email, Phone Call, or Text Message) (Required).
+*   **Your Message**: A multi-line text area for the user to elaborate on their request or provide additional details.
+*   **Terms and Conditions**: A mandatory checkbox ensuring the user agrees to the privacy policy before submitting the form (Required).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+*   **Responsive Design**: The form looks great on both desktop and mobile devices.
+*   **Real-time State Management**: Uses React's `useState` hook to manage input fields efficiently.
+*   **Validation & Error Handling**: Ensures that mandatory fields (like the terms and conditions and communication preference) are completed before allowing form submission, displaying error or success messages accordingly.
+*   **Tailwind CSS Styling**: Utilizes modern utility classes for a clean, cohesive, and accessible user interface.
+
+## How to Run Locally
+
+To get this project running on your local machine:
+
+1.  Clone the repository to your local machine.
+2.  Open your terminal and navigate to the project directory.
+3.  Run `npm install` to install all necessary dependencies.
+4.  Run `npm run dev` to start the development server.
+5.  Open your browser and navigate to the local URL provided in the terminal (usually `http://localhost:5173`).
